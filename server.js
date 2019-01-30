@@ -50,6 +50,14 @@ app.get('/about',(req,res)=>{
     pageTitle:'About Page',
 
   })
+});
+
+app.get('/project',(req,res)=>{
+  //res.send('about');
+  res.render('project.hbs',{
+    pageTitle:'Project Page',
+
+  })
 })
 
 
